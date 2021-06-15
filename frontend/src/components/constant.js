@@ -1,0 +1,1 @@
+export const authToken = {headers: {'Authorization': 'Token ' + localStorage.getItem('token')}}
